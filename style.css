@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --green-color: rgb(7, 214, 145);
+}
+
+body{
+    background: var(--green-color);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: whitesmoke;
+    /* height: 200px; */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.task-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    padding-top: 5px;
+}
+
+i{
+    margin-left: 10px;
+}
+
+input{
+    border: 2px solid var(--green-color);
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 17px;
+    color: var(--green-color);
+    outline: none;
+}
+
+.btn{
+    font-size: 17px;
+    background: var(--green-color);
+    color: white;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.task-row{
+    background: var(--green-color);
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
